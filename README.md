@@ -11,7 +11,30 @@
    - Arrow functions cannot use yield within their body and cannot be created as generator functions.
 
 ```javascript
-const materials = ["Hydrogen", "Helium", "Lithium", "Beryllium"];
+1. const add = (x, y) => {
+        const sum = x + y;
+        return sum;
+    }
+2. const add = (x, y) => x + y;
 
-console.log(materials.map((material) => material.length));
+3. const double = number => number * 2; //one arg
+
+4. const sayHello = () => console.log('Hey');
+
+5. const getPersonData = () => ({
+    name: 'Sneha',
+    age: 24,
+    job: 'Programmer',
+});            // object
+
+const myArrowFuntion = (arg1, arg2) => ({
+    name: 'Sneha',
+});
 ```
+
+2. FUnction as data
+3. Passing funtion as arguments
+4. Returning funtions
+5. Closure
+6. Implement private variable
+7. Higher order funtion

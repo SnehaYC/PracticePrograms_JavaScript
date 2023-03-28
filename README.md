@@ -10,13 +10,8 @@
    - Arrow functions cannot be used as constructors. Calling them with new throws a TypeError. They also don't have access to the new.target keyword.
    - Arrow functions cannot use yield within their body and cannot be created as generator functions.
 
-````javascript
-``` const materials = [
-  'Hydrogen',
-  'Helium',
-  'Lithium',
-  'Beryllium'
-];
+```javascript
+const materials = ["Hydrogen", "Helium", "Lithium", "Beryllium"];
 
-console.log(materials.map(material => material.length));
-````
+console.log(materials.map((material) => material.length));
+```

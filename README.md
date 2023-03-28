@@ -32,7 +32,8 @@ const myArrowFuntion = (arg1, arg2) => ({
 });
 ```
 
-2. FUnction as data
+2. Function as data
+
 3. Passing funtion as arguments
 4. Returning funtions
 5. Closure

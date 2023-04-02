@@ -1,10 +1,10 @@
 <!-- @format -->
 
-# Basic Concepts
+# Basic Concepts: Functional Programming with JavaScript ES6+
 
 ## Chaptor I - First-Class Function
 
-# Topic 1. Arrow function in ES6
+### Topic 1. Arrow function in ES6
 
 - An arrow function expression is a compact alternative to a traditional function expression
 - Arrow functions don't have their own bindings to this, arguments, or super, and should not be used as methods.
@@ -33,16 +33,36 @@ const myArrowFuntion = (arg1, arg2) => ({
 });
 ```
 
-# Topic 2. Function as data
+### Topic 2. Function as data
 
-# Topic 3. Passing funtion as arguments
+### Topic 3. Passing funtion as arguments
 
-# Topic 4. Returning funtions
+### Topic 4. Returning funtions
 
-# Topic 5. Closure
+### Topic 5. Closure
 
 - closure means that when we define a function that returns another function, the function that we returned still has access to the internally scope of the function that returned it.
 
-# Topic 6. Implement private variable
+### Topic 6. Implement private variable
 
-# Topic 7. Higher order funtion
+### Topic 7. Higher order funtion
+
+## Chaptor II - Functional Parts
+
+### Topic: I - Spread Operator
+
+### Topic: II - Mapping
+
+### Topic: III - Filtering
+
+### Topic: IV - Every/some
+
+### Topic: V - Slicing
+
+### TOpic: VI - Sorting
+
+### Topic: VII - Reducing
+
+### Topic: VIII - Combinind functions
+
+### Challange: Recreate the map function

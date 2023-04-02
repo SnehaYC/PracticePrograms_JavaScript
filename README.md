@@ -41,6 +41,8 @@ const myArrowFuntion = (arg1, arg2) => ({
 
 # Topic 5. Closure
 
+- closure means that when we define a function that returns another function, the function that we returned still has access to the internally scope of the function that returned it.
+
 # Topic 6. Implement private variable
 
 # Topic 7. Higher order funtion

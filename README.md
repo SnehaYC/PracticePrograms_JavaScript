@@ -55,6 +55,10 @@ const myArrowFuntion = (arg1, arg2) => ({
 
 ### Topic: II - Mapping
 
+- If we want to convert each of the individual elements in the array to some other form.
+- For example, we might have an array of numbers and we might want to double all the numbers in the array.
+- Functions like map don't actually change the original array we're calling the functions on. They just return a modified copy. So just calling map on an array, for example, without defining another constant to hold the result, essentially does nothing.
+
 ### Topic: III - Filtering
 
 ### Topic: IV - Every/some

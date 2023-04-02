@@ -51,6 +51,8 @@ const myArrowFuntion = (arg1, arg2) => ({
 
 ### Topic: I - Spread Operator
 
+- This oprator used to manipulate object and array
+
 ### Topic: II - Mapping
 
 ### Topic: III - Filtering

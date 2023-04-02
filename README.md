@@ -35,8 +35,12 @@ const myArrowFuntion = (arg1, arg2) => ({
 
 # Topic 2. Function as data
 
-3. Passing funtion as arguments
-4. Returning funtions
-5. Closure
-6. Implement private variable
-7. Higher order funtion
+# Topic 3. Passing funtion as arguments
+
+# Topic 4. Returning funtions
+
+# Topic 5. Closure
+
+# Topic 6. Implement private variable
+
+# Topic 7. Higher order funtion

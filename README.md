@@ -61,6 +61,11 @@ const myArrowFuntion = (arg1, arg2) => ({
 
 ### Topic: III - Filtering
 
+- Filter is used when you want to find all of the elements in an array that fit some kind of criteria. For example if we have an array of numbers and we want to get all the numbers from it that are even.
+- The main difference between Filter and Map is the type of function that we pass into it.
+  - In Map, we pass in a function that returns a value for each element in the array. And the return value of this function represents what the element becomes in our new array.
+  - On the other hand, for Filter, we pass it a function that returns either true or false for each element. If the function that we pass returns true for a given element, then that element's included in the final array. Otherwise, it's left out.
+
 ### Topic: IV - Every/some
 
 ### Topic: V - Slicing

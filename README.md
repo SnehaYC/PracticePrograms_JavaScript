@@ -105,6 +105,6 @@ const myArrowFuntion = (arg1, arg2) => ({
   - In addition to the function that we pass it as an argument, we have to remember to provide it with another argument- the starting value. This is the value that reduce will start with when looking at the elements in our array.
   - In other words, when the function we pass to reduce is called for the very first time, our accumulator argument will be equal to the starting value, and the second argument will be equal to the first element in our array.
 
-### Topic: VIII - Combinind functions
+### Topic: VIII - Combined functions
 
 ### Challange: Recreate the map function

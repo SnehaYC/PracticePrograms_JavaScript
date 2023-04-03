@@ -94,6 +94,17 @@ const myArrowFuntion = (arg1, arg2) => ({
 
 ### Topic: VII - Reducing
 
+- It take an array of data, and reduce it down to a single value.
+- what's the syntax of reduce?
+  - Reduce, like most of our other built-it array functions, takes a function as an argument. The form of this function however is a little different from what we've seen with map and filter.
+  - This function in it's simplest form takes two arguments.
+  - The first argument represents the current value that we've built up on top of the initial value. We call this argument the accumulator, and by convention, we just use the abbreviation acc in the function's arguments.
+  - The second argument represents the current element of the array that we're looking at, much like in the map or filter functions.
+  - And the purpose of this function that we pass to reduce is to tell reduce how to combine the current value of the accumulated variable, what we've got so far, with the current element that we're looking at.
+  - When we want to calculate the sum of an array of numbers for example, our function will simply return the accumulator argument, plus the current element.
+  - In addition to the function that we pass it as an argument, we have to remember to provide it with another argument- the starting value. This is the value that reduce will start with when looking at the elements in our array.
+  - In other words, when the function we pass to reduce is called for the very first time, our accumulator argument will be equal to the starting value, and the second argument will be equal to the first element in our array.
+
 ### Topic: VIII - Combinind functions
 
 ### Challange: Recreate the map function

@@ -81,6 +81,15 @@ const myArrowFuntion = (arg1, arg2) => ({
 
 ### Topic: V - Slicing
 
+- Slice is not a higher order function.
+- what does slice do exactly?
+  -normally slice is used to get a section of the elements from an array.
+  - For example, if we have an array of numbers zero to 10, we can get a subset of these numbers by calling slice.
+- the first argument tells slice which index of the array to start on.
+- the second argument tells slice which index to stop before.
+- the default arguments for slice, if we simply call slice without any arguments
+- sort(), reverse(), push(), pop() these functions doesn't return copy of the original array they actually mutate the original array.
+
 ### TOpic: VI - Sorting
 
 ### Topic: VII - Reducing

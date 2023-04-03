@@ -68,6 +68,17 @@ const myArrowFuntion = (arg1, arg2) => ({
 
 ### Topic: IV - Every/some
 
+- JavaScript's built-in every and some functions are similar to this in that we pass them a function that returns either true or false for each element.
+- But the difference is that instead of returning an array, every and some return a single Boolean, true or false.
+- Every returns true if and only if a given condition is true for every single element in our array. Otherwise, it returns false.
+- So, for example, if we have an array of all odd numbers and we call every with a function that checks if a number is odd, it will return true. But if there's a single even number in our array, it will return false. And, if the array contains all even numbers, it will return false.
+- Now 'some', on the other hand, returns true if the condition is true for any of the elements in our array. In other words, it returns false if and only if the condition is false for every element in our array.
+- If we have an array of all odd numbers and we call 'some' with a function that checks if a number is odd, it will return true. And if we have a single even number in our array, it will still return true all the way down to if there's only one odd number in the array, where it will still return true.
+- The only time it will return false is if we have an array of all even numbers.
+- So then, comparing the output of every and some, we see that their return values will be exactly the same if we call them on an array where the condition is either true for all the elements or false for all the elements.
+- [false,true,false,true,true] => every => false
+- [false,true,false,true,false] => some => true
+
 ### Topic: V - Slicing
 
 ### TOpic: VI - Sorting

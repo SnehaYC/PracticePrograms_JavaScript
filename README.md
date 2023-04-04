@@ -108,3 +108,11 @@ const myArrowFuntion = (arg1, arg2) => ({
 ### Topic: VIII - Combined functions
 
 ### Challange: Recreate the map function
+
+## Advanced functional concept
+
+### Currying and partial application
+
+- Partial application is when we take a function that has some number of arguments, and we fix some of those arguments to a set value.
+- This gives us a function with less arguments than we had before.
+- This function with fixed arguments can then be called from anywhere else in code, and it will be as if we had called the original function with all of its arguments.

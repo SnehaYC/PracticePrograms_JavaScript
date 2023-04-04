@@ -120,3 +120,27 @@ const myArrowFuntion = (arg1, arg2) => ({
 ### Recursion
 
 - when a function calls itself is known as recursion.
+
+### Functions as objects
+
+- Properties of fun:
+
+  - name(returns name of func),
+  - length(returns number of arg which func accepts),
+  - toString()(returns string representation of func code)
+  - call
+    - basically just calls our function
+    - The first argument of this call function allows us to change the value of the this keyword if we used it in our function.
+    - In functional programming, we'll only use the this keyword inside functions very rarely, so we usually just end up passing null in for the first argument, and the rest of the arguments that we pass to call will be passed to our function and the result will be returned.
+  - apply - Apply is almost exactly the same as call, the only difference is that instead of passing the arguments we want to call our function with in the usual way, we pass apply an array of values which it passes to our function as arguments.
+  - bind
+    - If we want to fix one of the arguments in our add function, we simply have to call bind, and pass it the value we want to fix the first argument.
+    - So if we wanted to fix the first argument x, we could just pass one as the second argument to bind.
+
+## Challanges
+
+### Challange - 1 Convert array
+
+### Challange - 2 Anagrams
+
+### Challange - 3 Error messages

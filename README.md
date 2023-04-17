@@ -116,7 +116,9 @@ const myArrowFuntion = (arg1, arg2) => ({
 - Partial application is when we take a function that has some number of arguments, and we fix some of those arguments to a set value.
 - This gives us a function with less arguments than we had before.
 - This function with fixed arguments can then be called from anywhere else in code, and it will be as if we had called the original function with all of its arguments.
-
+Partial application is when we take a function that has some number of arguments, and we fix some of those arguments to a set value.
+- This gives us a function with less arguments than we had before.
+- This function with fixed arguments can then be called from anywhere else in code, and it will be as if we had called the original fun
 ### Recursion
 
 - when a function calls itself is known as recursion.

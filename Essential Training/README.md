@@ -17,6 +17,10 @@
 
 ## Up and Running with JavaScript
 
+- Defer attribute
+  - This Boolean attribute is set to indicate to a browser that the script is meant to be executed after the document has been parsed, but before firing DOMContentLoaded.
+  - Scripts with the defer attribute will prevent the DOMContentLoaded event from firing until the script has loaded and finished evaluating.
+
 ## Objects
 
 ## Sidebar: String Output

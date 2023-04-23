@@ -55,6 +55,13 @@ const backpack = {
 
 ## DOM
 
+- The Document Object Model (DOM) is a programming interface for web documents. It represents the page so that programs can change the document structure, style, and content. The DOM represents the document as nodes and objects; that way, programming languages can interact with the page.
+- If you want to do something in the DOM you start by finding the element or elements you want to work with.
+- For this, we have two methods:<b> query selector and query selector all</b>. And they both apply to the document object.
+- These methods use standard CSS queries to climb through the DOM tree and find the specified elements. So if you know how to target things with CSS you also know how to target things using JavaScript via these methods.
+- There are two other methods used to access elements, <B>getelementsbyClassName and getelementbyId </B>. Note that get elements by class name has the plural of elements whereas the by id one has the singular of element. These two methods used to be the only tools we had for accessing elements using classes and ids and they still work, but queryselector and queryselectorall were introduced to simplify this process and remedy some of the shortcomings of these older methods.
+- getelementsbyClassName returns an array-like object of all the nodes or child elements matching the query. The query is string of space separated class names.
+
 ## Sidebar: Variables and Date type
 
 ## Arrays
